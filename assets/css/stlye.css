@@ -1,35 +1,21 @@
 header {
     display: inline-block;
     background-color: #ffffff;
-}
-
-
-.flex-container {
-    display: flex;
-    flex-direction: row;
-    background-color:#ffffff;
+    text-decoration-color: #4aaaa5;
 }
   
-  .flex-container > div {
+body {
     background-color:#4aaaa5;
     color: #ffffff;
-    width: 100px;
+    width: 960px;
     margin: 10px;
     text-align: center;
     line-height: 75px;
     font-size: 30px;
-}
-
-
-section {
-    display: block ;
-    padding: 0;
-    margin-block: 10px;
-    background-color: #ffffff;
-    border-color: 2px solid gray
-    color: #4aaaa5;
+    padding: 15%;
+    background-image: url("bg.png");
     font-family: Georgia, 'Times New Roman', Times, serif;
-} 
+}
 
 
 footer {
@@ -43,4 +29,5 @@ footer {
     position: fixed;
     bottom: 0;
     left: 0;
+    clear: all;
 }
